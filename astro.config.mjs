@@ -27,6 +27,9 @@ export default defineConfig({
 	],
 	devToolbar: { enabled: false },
 	security: {
-		allowedDomains: ["https://darkred-eland-680206.hostingersite.com"],
+		allowedDomains: [
+			"https://darkred-eland-680206.hostingersite.com",
+			"https://newjewlery.com",
+		],
 	},
 });
