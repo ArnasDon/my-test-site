@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "chmod +x node_modules/.pnpm/esbuild@*/node_modules/esbuild/bin/esbuild node_modules/.pnpm/@esbuild+*/node_modules/@esbuild/*/bin/esbuild 2>/dev/null; astro build",
     "preview": "astro preview",
     "start": "node ./dist/server/entry.mjs",
     "bootstrap": "emdash init && emdash seed",
