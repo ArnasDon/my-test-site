@@ -26,4 +26,9 @@ export default defineConfig({
 		}),
 	],
 	devToolbar: { enabled: false },
+	vite: {
+		ssr: {
+			noExternal: ["kysely", "emdash"],
+		},
+	},
 });
