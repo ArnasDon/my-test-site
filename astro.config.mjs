@@ -26,4 +26,7 @@ export default defineConfig({
 		}),
 	],
 	devToolbar: { enabled: false },
+	security: {
+		allowedDomains: ["https://darkred-eland-680206.hostingersite.com"],
+	},
 });
